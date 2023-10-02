@@ -1,0 +1,923 @@
+@media (max-width: 76em) {
+  html {
+    font-size: 60%;
+  }
+  .header-box {
+    gap: 9rem;
+  }
+  .recommended-items-product {
+    padding-bottom: 1rem;
+  }
+}
+@media (max-width: 70em) {
+  html {
+    font-size: 58%;
+  }
+  .first-second-box {
+    gap: 16rem;
+  }
+  .header-box {
+    gap: 8rem;
+  }
+}
+@media (max-width: 73em) {
+  html {
+    font-size: 56%;
+  }
+  .blue-btn,
+  .blue-btn-2,
+  .log-btn {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 68em) {
+  html {
+    font-size: 54%;
+  }
+  .header-box {
+    gap: 8rem;
+  }
+  .container {
+    font-size: 2.8rem;
+  }
+  p {
+    font-size: 2.2rem !important;
+  }
+  .first-second-box {
+    gap: 16rem;
+  }
+  .left-side-text,
+  .right-side-text {
+    font-size: 2rem;
+  }
+  .nav-text {
+    font-size: 1.2rem;
+  }
+  .last-nav-text {
+    width: 10rem;
+  }
+  .hr-1,
+  .hr-2,
+  .nav-section-desk,
+  .start-box,
+  .category-box,
+  .category-list,
+  .hero-list,
+  .navigation-desk,
+  .search-btn {
+    display: none;
+  }
+  .input-search {
+    width: 118rem;
+    height: 6rem;
+    border-radius: 0.8rem;
+    border: 0.05rem solid rgba(151, 151, 151, 0.109);
+    margin-top: 2rem;
+    background-color: #f7fafc;
+    margin-top: 6rem;
+  }
+  .input-search::placeholder {
+    font-size: 2.4rem;
+    padding-left: 5rem;
+  }
+  .search-icon {
+    width: 3rem;
+    display: block;
+    position: absolute;
+    top: 60%;
+    left: 1%;
+  }
+  .scnd-box {
+    position: relative;
+  }
+  .triple-lin {
+    display: block;
+    height: 6rem;
+  }
+
+  .brand-logo {
+    width: 25rem;
+  }
+  .res-header {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    margin-top: 6rem;
+  }
+  .first-second-box {
+    display: flex;
+    gap: 30rem;
+  }
+  .nav-section {
+    margin-top: 8rem;
+  }
+  .navigation-res {
+    display: flex;
+    gap: 2rem;
+    margin-top: 6rem;
+    margin-left: -16rem;
+  }
+  .res-header,
+  .nav-section-res {
+    margin-top: 16rem;
+  }
+  .nav-res-icon {
+    margin-top: 3rem;
+    width: 6rem;
+  }
+  .header-box {
+    gap: 0;
+  }
+  .nav-section-res {
+    display: flex;
+    gap: 4.4rem;
+    overflow: scroll;
+  }
+  .nav-section-res-items {
+    white-space: nowrap;
+    color: #0d6efd;
+    background-color: #eff2f4;
+    padding: 2rem 3rem;
+    border-radius: 0.6rem;
+    font-weight: 500;
+    font-size: 2.6rem;
+  }
+  .back-white-res {
+    background-color: #fff;
+  }
+  .hero-section {
+    grid-template-columns: 1fr;
+    height: 56rem;
+    box-shadow: none;
+    padding: 0;
+    margin-top: 2rem;
+  }
+  .hero-img-box {
+    border-radius: 1rem;
+  }
+  .hero-text-one {
+    font-size: 4.4rem;
+  }
+  .hero-text-two {
+    font-size: 6.4rem;
+  }
+  .learn-btn {
+    width: 24rem;
+    height: 6rem;
+    font-size: 3rem;
+    border-radius: 1.8rem;
+  }
+  .recommended-items-products {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .recommended-items-product {
+    height: 36rem;
+  }
+  .recommended-items-paragraph {
+    width: 24rem;
+  }
+  .extra-service-section {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.4rem;
+  }
+  .extra-service {
+    height: 28rem;
+  }
+  .icon {
+    width: 4rem;
+    height: 4rem;
+    right: -39%;
+    top: -15%;
+  }
+  .icon-blue {
+    top: -30%;
+    right: -45%;
+    width: 8rem;
+    height: 8rem;
+  }
+  .deals-section {
+    box-shadow: none;
+    display: block;
+    height: 44rem;
+  }
+  .extra-service-description-box {
+    width: 36rem;
+  }
+  .products-section {
+    display: grid;
+    overflow: scroll;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .product-section {
+    border: 0.1rem solid #e0e0e07e;
+    padding: 1rem;
+    width: 30rem;
+    border-right: none;
+    margin-top: 3rem;
+  }
+  .product-section:last-child {
+    border-right: 0.1rem solid #e0e0e07e;
+  }
+  .countdown-section {
+    border: none;
+    display: flex;
+    gap: 6rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .countdown-blocks {
+    gap: 2rem;
+  }
+  .countdown-block {
+    background-color: #eff2f4;
+    padding: 2rem;
+    border-radius: none;
+  }
+
+  .deals-nmbr {
+    font-size: 3.2rem;
+    color: #8b96a5;
+  }
+  .deals-under-number {
+    font-size: 2.2rem;
+    color: #8b96a5;
+  }
+  .deals-text {
+    font-size: 4.4rem;
+  }
+  .deals-description {
+    font-size: 3.2rem;
+  }
+  .deal-pourcentage {
+    font-size: 2.4rem;
+  }
+  .home-products-choices {
+    overflow: scroll;
+    grid-template-columns: repeat(8, 20rem);
+  }
+  .home-products-box {
+    grid-template-columns: 1fr;
+    height: 22rem;
+  }
+  .home-picture-box {
+    width: 14rem;
+  }
+  .home-product-with-price {
+    width: 40rem;
+  }
+  .usd-price {
+    font-size: 2.4rem;
+  }
+  .home-products-choices {
+    grid-template-columns: repeat(8, 1fr);
+    gap: 0;
+  }
+  .btn-res {
+    font-size: 2.2rem;
+  }
+  .home-img-box,
+  .home-img-box-2,
+  .right-side-inquery-section,
+  .coffe-res {
+    display: none;
+  }
+  .home-products-title-res,
+  .send-inquery-section,
+  .recommended-products-title,
+  .extra-service-title,
+  .region-title,
+  .subscribe-section,
+  .footer-section {
+    margin-top: 12rem;
+  }
+  .home-products-title-res,
+  .btn-res,
+  .first-second-box {
+    display: block;
+  }
+  .home-products-title-res,
+  .send-inquery-title,
+  .recommended-products-title,
+  .extra-service-title,
+  .region-title,
+  .subscribe-section-title {
+    font-size: 3.6rem;
+  }
+  .send-inquery-title {
+    width: 60rem;
+  }
+  .btn-res {
+    width: 20rem;
+  }
+  .send-inquery-paragraph {
+    display: block;
+    font-size: 2.4rem;
+    width: 60rem;
+  }
+
+  .source-now-box {
+    display: flex;
+  }
+  .back-img-1,
+  .back-img-2,
+  .back-img-3,
+  .back-img-4 {
+    background-size: cover;
+  }
+
+  .extra-service-description {
+    font-size: 2.6rem;
+  }
+  .regions {
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+  }
+  .email-input {
+    width: 30rem;
+    height: 5.6rem;
+    padding-top: 1rem;
+  }
+  .email-input::placeholder {
+    font-size: 2.8rem;
+    color: #8b96a5;
+    padding-left: 5rem;
+  }
+  .email-icon {
+    height: 3rem;
+    width: 3rem;
+  }
+  .sub-btn {
+    height: 5rem;
+    width: 14rem;
+    font-size: 2.4rem;
+  }
+  .more-info-title {
+    font-size: 3rem;
+  }
+  .flag-l {
+    width: 10rem;
+    height: 6rem;
+  }
+  .flag-s {
+    width: 6rem;
+    height: 4rem;
+  }
+  .footer-section {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10rem;
+    padding: 5rem 0;
+  }
+  .contact-info {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .get-app {
+    grid-column: -3/-2;
+    grid-row: 2/3;
+  }
+  .social-media-icon {
+    width: 4rem;
+    height: 4rem;
+  }
+  .download-app-img {
+    width: 16rem;
+  }
+}
+@media (max-width: 64em) {
+  html {
+    font-size: 50%;
+  }
+  .container {
+    font-size: 3.2rem;
+  }
+  p {
+    font-size: 2.6rem !important;
+  }
+  .category-text {
+    font-size: 1.4rem;
+  }
+  .item-input,
+  .Quantity-input,
+  .input-search,
+  .email-input {
+    padding-bottom: 1.6rem;
+  }
+
+  .more-details-input {
+    padding-bottom: 5rem;
+  }
+  .recommended-items-products {
+    grid-template-columns: 1fr 1fr;
+  }
+  .recommended-items-paragraph {
+    width: 38rem;
+  }
+  .recommended-items-product {
+    height: 40rem;
+  }
+  .recommended-img {
+    height: 24rem;
+  }
+  .coffe-res {
+    display: flex;
+  }
+  .extra-service-section {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.4rem;
+  }
+  .home-products-title-res,
+  .send-inquery-title,
+  .recommended-products-title,
+  .extra-service-title,
+  .region-title,
+  .subscribe-section-title {
+    font-size: 4.4rem;
+  }
+  .deal-pourcentage {
+    font-size: 3rem;
+  }
+  .input-search {
+    padding-top: 1rem;
+  }
+  .send-inquery-paragraph {
+    display: block;
+    font-size: 2.4rem;
+    width: 60rem;
+  }
+
+  .btn-res {
+    font-size: 2.8rem;
+    width: 26rem;
+  }
+  .footer-section {
+    grid-template-columns: 1fr 1fr;
+    gap: 16rem;
+  }
+  .contact-info {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .get-app {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  .more-info-title,
+  .get-app-title {
+    font-size: 3.4rem;
+  }
+  .social-media-icon {
+    width: 5rem;
+    height: 5rem;
+  }
+  .download-app-img {
+    width: 20rem;
+  }
+  .contact-info-text {
+    line-height: 1.2;
+  }
+}
+@media (max-width: 58em) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 54em) {
+  html {
+    font-size: 42%;
+  }
+  .container {
+    font-size: 3.6rem;
+  }
+  p {
+    font-size: 3rem !important;
+  }
+  .home-products-title-res,
+  .send-inquery-title,
+  .recommended-products-title,
+  .extra-service-title,
+  .region-title,
+  .subscribe-section-title {
+    font-size: 5rem;
+  }
+  .usd-price {
+    font-size: 2.8rem;
+  }
+  .deals-nmbr {
+    font-size: 3.6rem;
+  }
+  .deals-under-number {
+    font-size: 2.4rem;
+  }
+  .deals-text {
+    font-size: 4.4rem;
+  }
+  .deals-description {
+    font-size: 3.6rem;
+  }
+  .recommended-item-price {
+    font-size: 4rem;
+  }
+  .source-now-link {
+    font-size: 3.6rem;
+  }
+  .send-inquery-paragraph {
+    display: none;
+  }
+  .extra-service-description {
+    font-size: 4rem;
+  }
+  .btn-res {
+    font-size: 3.2rem;
+    width: 26rem;
+    height: 6.4rem;
+    margin-top: 12rem;
+  }
+  .icon {
+    width: 5rem;
+    height: 5rem;
+    right: -30%;
+    top: -15%;
+  }
+  .icon-blue {
+    top: -38%;
+    right: -35%;
+    width: 12rem;
+    height: 12rem;
+  }
+  .extra-service-description-box {
+    width: 80rem;
+  }
+  .extra-service-section {
+    grid-template-columns: 1fr;
+  }
+  .extra-service {
+    height: 36rem;
+  }
+
+  .subscribe-section {
+    padding: 8rem 0;
+  }
+  .email-input {
+    width: 44rem;
+    height: 8rem;
+  }
+  .email-input::placeholder {
+    color: #8b96a5;
+    padding-left: 8rem;
+    font-size: 4rem;
+  }
+  .email-icon {
+    height: 5rem;
+    width: 5rem;
+  }
+  .sub-btn {
+    height: 8rem;
+    width: 18rem;
+    font-size: 3.2rem;
+  }
+  .more-info-title,
+  .get-app-title {
+    font-size: 3.8rem;
+  }
+}
+@media (max-width: 50em) {
+  html {
+    font-size: 38%;
+  }
+}
+@media (max-width: 45em) {
+  html {
+    font-size: 36%;
+  }
+  .container {
+    font-size: 3.8rem;
+  }
+  p {
+    font-size: 2.2rem !important;
+  }
+  .home-products-title-res,
+  .send-inquery-title,
+  .recommended-products-title,
+  .extra-service-title,
+  .region-title,
+  .subscribe-section-title {
+    font-size: 6rem;
+  }
+  .brand-logo {
+    width: 36rem;
+  }
+  .input-search {
+    padding-top: 2rem;
+    padding-left: 3rem;
+    height: 8rem;
+  }
+  .input-search::placeholder {
+    font-size: 4.4rem;
+  }
+  .search-icon {
+    width: 5rem;
+    top: 50%;
+    left: 1%;
+  }
+  .nav-res-icon {
+    width: 8rem;
+  }
+  .header-box {
+    margin-top: 5rem;
+  }
+  .navigation-res {
+    margin-top: 2rem;
+    margin-left: -25rem;
+  }
+  .first-box {
+    margin-bottom: 4rem;
+  }
+  .nav-section-res-items {
+    font-size: 3.6rem;
+  }
+  .nav-section-res {
+    margin-top: 22rem;
+  }
+  .hero-section {
+    margin-top: 8rem;
+  }
+  .source-now-link {
+    font-size: 4.4rem;
+  }
+  .btn-res {
+    font-size: 3.6rem;
+    width: 30rem;
+    margin-top: 6rem;
+    border-radius: 2rem;
+  }
+  .recommended-item-price {
+    font-size: 5.6rem;
+  }
+  .recommended-items-paragraph {
+    font-size: 4.4rem !important;
+    width: 50rem;
+  }
+  .recommended-items-product {
+    height: 72rem;
+  }
+  .recommended-img {
+    height: 44rem;
+  }
+
+  .email-input {
+    width: 56rem;
+  }
+  .triple-lin {
+    height: 8rem;
+  }
+  .nav-section-res-items {
+    font-size: 4.8rem;
+  }
+  .product-name {
+    font-size: 4.8rem;
+  }
+  .deals-text {
+    font-size: 5.6rem;
+  }
+  .deals-description {
+    font-size: 4.4rem;
+  }
+  .deal-pourcentage {
+    font-size: 4.4rem;
+  }
+  .deals-nmbr {
+    font-size: 4.8rem;
+  }
+  .deals-under-number {
+    font-size: 3.6rem;
+  }
+  .tech-img {
+    width: 20rem;
+    margin-bottom: 5rem;
+  }
+  .product-section {
+    width: 40rem;
+    height: 48rem;
+  }
+  .home-products-title-res-1 {
+    margin-top: 30rem;
+  }
+  .home-products-box {
+    height: 32rem;
+  }
+  .home-picture-box {
+    width: 22rem;
+  }
+  .home-product-with-price {
+    width: 56rem;
+    height: 30rem;
+  }
+  .home-product-descrip {
+    font-size: 4.8rem;
+  }
+  .usd-price {
+    font-size: 3rem;
+  }
+  .source-now-link {
+    font-size: 4.8rem;
+  }
+}
+
+@media (max-width: 42em) {
+  html {
+    font-size: 32%;
+  }
+  .home-products-title-res,
+  .send-inquery-title,
+  .recommended-products-title,
+  .extra-service-title,
+  .region-title,
+  .subscribe-section-title {
+    font-size: 6.4rem;
+  }
+  .brand-logo {
+    width: 46rem;
+  }
+  .triple-lin {
+    height: 8rem;
+  }
+  .nav-res-icon {
+    width: 10rem;
+  }
+  .input-search {
+    padding-left: 4.4rem;
+    height: 14rem;
+    margin-top: 12rem;
+  }
+  .input-search::placeholder {
+    font-size: 6.4rem;
+  }
+  .search-icon {
+    width: 8rem;
+    top: 58%;
+    left: 1%;
+  }
+
+  .navigation-res {
+    margin-top: 8rem;
+  }
+  .res-header {
+    margin-top: 30rem;
+  }
+  .nav-section-res {
+    margin-top: 36rem;
+  }
+  .nav-section-res-items {
+    font-size: 5.6rem;
+    padding: 3rem 6rem;
+  }
+  .home-products-title-res-1 {
+    margin-top: 36rem;
+  }
+  .home-products-box {
+    height: 38rem;
+  }
+  .home-picture-box {
+    width: 26rem;
+  }
+  .home-product-with-price {
+    width: 64rem;
+    height: 36rem;
+  }
+  .home-product-descrip {
+    font-size: 5.6rem;
+  }
+  .usd-price {
+    font-size: 4.4rem;
+  }
+  .source-now-link {
+    font-size: 5.2rem;
+  }
+  .extra-service {
+    height: 44rem;
+  }
+  .extra-service-description {
+    font-size: 4.8rem;
+  }
+  .region-box {
+    font-size: 4.8rem;
+  }
+  .region-under-text {
+    font-size: 4rem !important;
+  }
+  .more-info-title,
+  .get-app-title {
+    font-size: 4.8rem;
+  }
+  .social-media-icon {
+    width: 6rem;
+    height: 6rem;
+  }
+  .list-item {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 38em) {
+  html {
+    font-size: 29%;
+  }
+}
+@media (max-width: 36em) {
+  html {
+    font-size: 27%;
+  }
+}
+@media (max-width: 32em) {
+  html {
+    font-size: 25%;
+  }
+}
+@media (max-width: 30em) {
+  html {
+    font-size: 24%;
+  }
+  .more-info-title,
+  .get-app-title {
+    font-size: 5.6rem;
+  }
+  .list-item {
+    font-size: 4.8rem;
+  }
+}
+@media (max-width: 28em) {
+  html {
+    font-size: 22%;
+  }
+}
+@media (max-width: 26em) {
+  html {
+    font-size: 20%;
+  }
+}
+@media (max-width: 24em) {
+  html {
+    font-size: 18%;
+  }
+  .home-products-title-res,
+  .send-inquery-title,
+  .recommended-products-title,
+  .extra-service-title,
+  .region-title {
+    font-size: 7.2rem;
+  }
+  .more-info-title,
+  .get-app-title {
+    font-size: 6.4rem;
+  }
+  .list-item {
+    font-size: 5.6rem;
+  }
+  .social-media-icon {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .subscribe-section {
+    padding: 12rem 2rem;
+  }
+  .subscribe-section-paragraph {
+    font-size: 4.4rem;
+    margin-bottom: 10rem;
+  }
+  .email-input {
+    width: 50rem;
+    height: 10rem;
+  }
+  .email-input::placeholder {
+    color: #8b96a5;
+    padding-left: 8rem;
+    font-size: 4.8rem;
+  }
+  .email-icon {
+    height: 5rem;
+    width: 5rem;
+    top: 28%;
+  }
+  .sub-btn {
+    height: 10rem;
+    width: 24rem;
+    font-size: 4.4rem;
+  }
+  .contact-info-text {
+    font-size: 4rem !important;
+  }
+}
+@media (max-width: 22em) {
+  html {
+    font-size: 16%;
+  }
+}
+@media (max-width: 20em) {
+  html {
+    font-size: 14%;
+  }
+}
